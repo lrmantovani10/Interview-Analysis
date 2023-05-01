@@ -1,0 +1,58 @@
+{
+    "english": {
+        "axes": [
+            "Confidence",
+            "Discussing resume",
+            "Discussing advantage over competitors",
+            "Listening over talking time",
+            "Discussing fit for the role"
+        ],
+        "error_message": "Error generating analysis.",
+        "starting_prompt": "The following is a transcription of a conversation in which an applicant is being interviewed for a job. First, correct any words in the conversation that may have been incorrectly transcribed based on the word's context and usage. Then, identify which speaker is the interviewer and which is the applicant in the dialogue.",
+        "start_of_conversation": "[Start of conversation]",
+        "end_of_conversation": "[End of conversation]",
+        "axis_prompt1": "Provide a list of bullet points describing what the interviewee did well and how they could improve in the following aspect of the conversation. List what they did well under 'strengths' and what they could improve on under 'points of improvement'. If this aspect was not addressed in the call, respond that it was not mentioned: ",
+        "axis_prompt2": " . Be detailed and cite external statistics that support your claims if helpful (for example, '3/5s of interviewees don't do this').\n",
+        "extra_prompts": [
+            "Provide 10 key words that describe this call. Only include nouns, adjectives, and verbs."
+        ],
+        "prompt_headers": ["Key words:"],
+        "follow_up": "Ask any questions on how to improve interview performance. For example, how to to know if I should talk more or less?",
+        "question_prompt": "Question (or '0' if you don't have any): ",
+        "next_prompt": "Answer the following question about interviews, always providing an answer based on the conversation provided: ",
+        "answer": "Answer",
+        "analysis": "Interview Analysis",
+        "transcription_error":"Error transcribing audio. The file might be corrupt or in an unsupported format. Try again with a mp3, mp4, or wav file.",
+        "intro_name": "Introduction\n",
+        "part_name": "Middle ",
+        "end_name":"Conclusion\n"
+    },
+    "portuguese": {
+        "axes": [
+            "Confiança",
+            "Discutindo currículo",
+            "Discutindo vantagem sobre concorrentes",
+            "Tempo de escuta sobre tempo de fala",
+            "Discutindo adequação para o papel"
+        ],
+        "error_message": "Erro obtido ao gerar a análise.",
+        "starting_prompt": "A seguir está uma transcrição de uma conversa em que um candidato está sendo entrevistado para um emprego. Primeiro, corrija quaisquer palavras na conversa que possam ter sido transcritas incorretamente com base no contexto e uso da palavra. Em seguida, identifique qual orador é o entrevistador e qual é o candidato no diálogo.",
+        "start_of_conversation": "[Começo da conversa]",
+        "end_of_conversation": "[Fim de conversa]",
+        "axis_prompt1": "Forneça uma lista de 'bullet points' descrevendo o que o entrevistado fez bem e como ele pode melhorar no seguinte aspecto da conversa. Liste os pontos positivos em 'pontos positivos' e os pontos de melhoria em 'pontos de melhoria'. Se esse aspecto não tiver sido abordado na call, responda que ele não foi mencionado. Seja extremamente detalhado e personalizado: ",
+        "axis_prompt2": " . Seja detalhado e cite estatísticas externas que suportem suas alegações, se isso for útil (por exemplo, '3/5 dos entrevistados não fazem isso').\n",
+        "extra_prompts": [
+            "Forneça dez palavras-chave que descrevem essa call. Inclua somente substantivos, adjetivos e verbos."
+        ],
+        "prompt_headers": ["Palavras-chave:"],
+        "follow_up": "Faça perguntas que você tenha sobre como melhorar suas entrevistas. Por exemplo, como se destacar para a empresa X? Como saber se falo mais ou menos?",
+        "question_prompt": "Pergunta (ou '0' se você não tiver nenhuma): ",
+        "next_prompt": "Responda a seguinte pergunta sobre entrevistas, sempre providenciando uma resposta baseada na conversa providenciada: ",
+        "answer": "Resposta",
+        "analysis": "Análise da Entrevista",
+        "transcription_error":"Erro transcrevendo o áudio. O arquivo pode estar corrupto ou em um formato não aceito pelo programa. Tente de novo com um arquivo em mp3, mp4, ou wav.",
+        "intro_name": "Introdução\n",
+        "part_name": "Meio ",
+        "end_name":"Conclusão\n"
+    }
+}
