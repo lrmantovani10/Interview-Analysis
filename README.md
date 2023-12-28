@@ -1,9 +1,11 @@
 # Interview Analyzer
 Repo containing all the code related to the functionality of software that transcribes and analyzes job interviews. The software takes in an audio file and transcribes it using the Whisper API. It then proceeds to analyze the call itself using OPenAI's GPT-4 model and outputs a PDF of the analysis along axes such as "confidence", "listening / talking ratio", and "Resume overview". This is useful for job/university interviewees such as me to understand what their communicative strengths and weaknesses are through the help of AI. Furthermore, after the analysis is generated, users can ask specific questions about how they can improve their performance by running the Chat.py file, which provides a ChatGPT-like interface of communication through the terminal. 
 
-Illustration:
+Pipeline:
 <br>
-<img src="Diagram.png" alt="Diagram Illustration" width="30%" height="30%">
+<div align = "center">
+<img src="Diagram.png" alt="Diagram Illustration" width="350px" height="400px">
+</div>
 
 Files include:
 
